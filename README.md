@@ -29,7 +29,12 @@ The Solar Farm Management System is a web application designed to monitor and ma
     npm start
     ```
 
-5. Open your browser and visit `http://localhost:3000` to view the application.
+5. Start the backend server:
+    ```bash
+    node server.js
+    ```
+
+6. Open your browser and visit `http://localhost:3000` to view the application.
 
 ## Technologies Used
 - **React**: Frontend framework for building user interfaces.
