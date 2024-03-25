@@ -16,7 +16,7 @@ The Solar Farm Management System is a web application designed to monitor and ma
 
 2. Navigate to the project directory:
     ```bash
-    cd solar-farm-management
+    cd solar-farm/solar-farm
     ```
 
 3. Install dependencies:
