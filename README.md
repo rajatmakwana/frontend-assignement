@@ -37,9 +37,5 @@ The Solar Farm Management System is a web application designed to monitor and ma
 - **Reactstrap**: Bootstrap components for React.
 - **Jest** and **React Testing Library**: Testing frameworks for unit and integration testing.
 
-
-## Contributing
-Contributions are welcome! If you have any ideas for new features, bug fixes, or improvements, feel free to open an issue or submit a pull request.
-
 ## License
 This project is licensed under the [MIT License](LICENSE).
