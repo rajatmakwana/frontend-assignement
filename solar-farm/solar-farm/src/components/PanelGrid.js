@@ -6,7 +6,7 @@ const PanelGrid = ({ panels }) => {
   return (
     <Row className="panel-grid">
       {panels.map(panel => (
-        <Col key={panel.id} xs="12" sm="6" md="4" lg="3" xl="2" className="mb-2">
+        <Col key={panel.id} xs="12" sm="6" md="4" lg="3" xl="2" className="mb-3">
           <Panel {...panel} />
         </Col>
       ))}

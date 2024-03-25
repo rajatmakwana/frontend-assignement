@@ -5,6 +5,8 @@ import solarPanelBlue from "../assets/solar-panel-blue-icon.png";
 import solarPanelRed from "../assets/solar-panel-red-icon.png";
 import solarPanelGreen from "../assets/solar-panel-green-icon.png"
 
+const widthStyle = { width: 50 };
+
 const Summary = ({ panels, totalEnergy }) => {
   // Get the list of weak and healthy panels
   const weakPanels =
@@ -34,7 +36,7 @@ const Summary = ({ panels, totalEnergy }) => {
                 <img
                   src={totalEnergyIcon}
                   alt="total-energy"
-                  style={{ width: 50 }}
+                  style={widthStyle}
                 />
               </CardBody>
             </Card>
@@ -51,7 +53,7 @@ const Summary = ({ panels, totalEnergy }) => {
                 <img
                   src={solarPanelBlue}
                   alt="total-panel"
-                  style={{ width: 50 }}
+                  style={widthStyle}
                 />
               </CardBody>
             </Card>
@@ -68,7 +70,7 @@ const Summary = ({ panels, totalEnergy }) => {
                 <img
                   src={solarPanelGreen}
                   alt="total-healthy-panel"
-                  style={{ width: 50 }}
+                  style={widthStyle}
                 />
               </CardBody>
             </Card>
@@ -85,7 +87,7 @@ const Summary = ({ panels, totalEnergy }) => {
                 <img
                   src={solarPanelRed}
                   alt="total-weak-panel"
-                  style={{ width: 50 }}
+                  style={widthStyle}
                 />
               </CardBody>
             </Card>

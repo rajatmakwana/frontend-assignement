@@ -39,7 +39,7 @@ const App = () => {
   }, []);
 
   return (
-    <div className="app mt-4">
+    <div className="mt-4" data-testid="solar-farm-monitor-dashboard">
       <Header />
       <Container fluid>
         <Summary panels={panels} totalEnergy={totalEnergy} />

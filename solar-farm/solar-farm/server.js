@@ -2,7 +2,7 @@ const moment = require('moment');
 const express = require('express');
 const cors = require('cors');
 const app = express();
-const port = 5001;
+const port = 5001; // Changed this from 5000 to 5001 due to port was already is in used in my machine
 const panels = require('./data.js');
 
 // Initialize freshData with data from data.js
