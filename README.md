@@ -11,12 +11,12 @@ The Solar Farm Management System is a web application designed to monitor and ma
 ## Installation
 1. Clone the repository to your local machine:
     ```bash
-    git clone https://github.com/your-username/solar-farm-management.git
+    git clone https://github.com/rajatmakwana/frontend-assignement.git
     ```
 
 2. Navigate to the project directory:
     ```bash
-    cd solar-farm-management
+    cd frontend-assignement
     ```
 
 3. Install dependencies:
